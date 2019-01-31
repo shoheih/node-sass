@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass -w --source-map true sass/main.scss css/main.css"
+    "compile:sass": "node-sass -w --source-map true sass/main.scss css/main.css",
+    "serve": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.1",
     "node-sass": "^4.11.0"
   }
 }
